@@ -1,0 +1,9 @@
+
+@include media(other){
+    .container {
+        max-width: 1280px;
+      }
+      .companies-modal{
+          max-width: 88vw;
+      }
+}
