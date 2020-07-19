@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import Header from './Header';
-import SiteMenu from './SiteMenu';
+import Header from "./Header";
+import SiteMenu from "./SiteMenu";
 
 export default {
-   components: {
+    components: {
         Header,
         SiteMenu
     }
-}
+};
 </script>

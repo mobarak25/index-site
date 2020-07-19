@@ -6,8 +6,12 @@ Vue.use(VueRouter);
 
 
 export default new VueRouter({
-    routes:[
-        { path: '/', component: ExampleComponent },
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: ExampleComponent
+        },
     ],
     mode: "history"
 })

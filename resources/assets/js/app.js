@@ -6,15 +6,15 @@ import router from './routes';
 
 
 import App from './components/App';
-import Header from './components/Header';
+import Modal from './components/Modal';
 
 
 require('./bootstrap');
 const app = new Vue({
     el: '#app',
-    components:{
+    components: {
         App,
-        Header
+        Modal
     },
     router,
 });

@@ -2033,6 +2033,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -2062,6 +2072,120 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Modal.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/Modal.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      companies: [{
+        id: "1",
+        logo: "../../images/company-logo-1.png",
+        desc: "<p>The Ceramics industry is a growing manufacturing sector in Bangladesh. The industry started during the late 1950s when the first ceramic industrial plants were established. Past 2 decades of economic growth in the country, resulted in growing demand for housing and infrastructures. Index seized the opportunity and expanded its wing to the Ceramics Tiles sector and incorporated it in 2008 with a vision to produce word class Italian Ceramics Tiles. A successful joint venture with Majorca, Italy, the benchmark of Italian tiles has helped the company to scale new heights. Majorca are true innovators of Italian tiles, their tiles reflect the Italian socio cultural heritage, emotion and passion. The dream was to excel in its field and provide best quality products that will gain popularity and trust of customers. The company lived up to that dream and today can boast to be one of the largest porcelain and ceramic tiles manufacturing company in Bangladesh.</p> <p> Under the umbrella of ‘X-Ceramics Limited’ three premium Tile brands in terms of both design and quality, are manufactured in state of the art plant.</p>",
+        projects: [{
+          id: "1",
+          img: "../../images/project-1.png",
+          title: "Monica Ceramics",
+          desc: "The VENUS range of exquisite tiles hail aristocracy, quality and innovation. Venus is a world class ceramics tiles, upholding porcelain philosophy and state-of-the-art research & design facilities.",
+          link: "www.x-ceramix.com"
+        }, {
+          id: "2",
+          img: "../../images/project-2.png",
+          title: "Monalisa Ceramics",
+          desc: "X Monica is one of the premium tile brand in Bangladesh. The brand is known as a trend setter within the tile industry of BD. Since the inception in the year 2009, our motto of success has been continuous ‘Innovation, Product Quality and Service’.",
+          link: "www.x-ceramix.com"
+        }, {
+          id: "3",
+          img: "../../images/project-3.png",
+          title: "Alexander Ceramics",
+          desc: "Alexander, the name which inspires through it’s style and elegance. Its a special brand of “X Ceramics”, which is part of the “X Index” Companies, a well known conglomerate of Bangladesh with high repute, existing from the year 1977.",
+          link: "www.x-ceramix.com"
+        }, {
+          id: "4",
+          img: "../../images/project-4.png",
+          title: "Venus Ceramics",
+          desc: "X Monica is one of the premium tile brand in Bangladesh. The brand is known as a trend setter within the tile industry of BD. Since the inception in the year 2009, our motto of success has been continuous ‘Innovation, Product Quality and Service’.",
+          link: "www.x-ceramix.com"
+        }, {
+          id: "5",
+          img: "../../images/project-1.png",
+          title: "Stone Shield",
+          desc: "Nunc ut libero vitae sapien feugiat congue quis ut nunc. Curabitur blandit efficitur mauris eu tempus. Duis metus nisl, dictum quis tellus sit amet, sollicitudin bibendum metus.Duis metus nisl, dictum quis tellus sit amet, sollicitudin bibendum metus.",
+          link: "www.x-ceramix.com"
+        }]
+      }]
+    };
+  }
+});
 
 /***/ }),
 
@@ -2158,72 +2282,114 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      img_url: 'images',
+      img_url: "images",
       navs: [{
-        name: 'Home',
+        name: "Home",
         hasChild: false
       }, {
-        name: 'About Us',
+        name: "About Us",
         hasChild: false
       }, {
-        name: 'Board Of Directors',
+        name: "Board Of Directors",
         hasChild: false
       }, {
-        name: 'Companies',
+        name: "Companies",
         hasChild: true,
         childs: [{
-          name: 'X Monica'
+          id: 1,
+          name: "X Monica"
         }, {
-          name: 'X Monalisa'
+          id: 2,
+          name: "X Monalisa"
         }, {
-          name: 'X Alexander'
+          id: 3,
+          name: "X Alexander"
         }, {
-          name: 'X Monica'
+          id: 4,
+          name: "X Monica"
         }, {
-          name: 'X Monalisa'
+          id: 5,
+          name: "X Monalisa"
         }, {
-          name: 'X Alexander'
+          id: 6,
+          name: "X Alexander"
         }]
       }, {
-        name: 'Publications',
+        name: "Publications",
         hasChild: false
       }, {
-        name: 'Career',
+        name: "Career",
         hasChild: false
       }, {
-        name: 'Contact us',
+        name: "Contact us",
         hasChild: false
       }],
       slider_items: [{
-        title: 'Hospitality',
-        url: 'slider-1.jpg'
+        id: 1,
+        title: "Hospitality",
+        url: "slider-1.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-2.jpg'
+        id: 2,
+        title: "Hospitality",
+        url: "slider-2.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-3.jpg'
+        id: 3,
+        title: "Hospitality",
+        url: "slider-3.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-4.jpg'
+        id: 4,
+        title: "Hospitality",
+        url: "slider-4.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-5.jpg'
+        id: 5,
+        title: "Hospitality",
+        url: "slider-5.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-6.jpg'
+        id: 6,
+        title: "Hospitality",
+        url: "slider-6.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-2.jpg'
+        id: 7,
+        title: "Hospitality",
+        url: "slider-2.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-5.jpg'
+        id: 8,
+        title: "Hospitality",
+        url: "slider-5.jpg"
       }, {
-        title: 'Hospitality',
-        url: 'slider-6.jpg'
+        id: 9,
+        title: "Hospitality",
+        url: "slider-6.jpg"
       }]
     };
   }
@@ -37887,7 +38053,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "section", attrs: { id: "section2" } }, [
-      _vm._v("\n              sdfsdf\n          ")
+      _vm._v("sdfsdf")
     ])
   ])
 }
@@ -37898,22 +38064,24 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "home-left" }, [
       _c("h2", [
-        _vm._v("Leadership"),
+        _vm._v("\n                    Leadership\n                    "),
         _c("br"),
-        _vm._v("Through "),
+        _vm._v("Through\n                    "),
         _c("br"),
-        _vm._v("Experience")
+        _vm._v("Experience\n                ")
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "with a heritage spanning over four decades, XIC established itself as a dynamic and progressive\n                          entity in the rapidly growing econo- my of Bangladesh."
+          "\n                    with a heritage spanning over four decades, XIC established itself as a dynamic and progressive\n                    entity in the rapidly growing econo- my of Bangladesh.\n                "
         )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "home-btn" }, [
         _c("a", { staticClass: "site-btn", attrs: { href: "" } }, [
-          _vm._v("Read More\n                              "),
+          _vm._v(
+            "\n                        Read More\n                        "
+          ),
           _c("i", { staticClass: "long-arrow-right" })
         ])
       ])
@@ -38013,7 +38181,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("a", { staticClass: "scroll-down", attrs: { href: "#" } }, [
-        _vm._v("Scroll Down "),
+        _vm._v("\n                Scroll Down\n                "),
         _c("i")
       ])
     ])
@@ -38074,6 +38242,165 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    {
+      staticClass: "modal fade",
+      attrs: {
+        id: "exampleModalCenter",
+        tabindex: "-1",
+        role: "dialog",
+        "aria-labelledby": "exampleModalCenterTitle",
+        "aria-hidden": "true"
+      }
+    },
+    [
+      _c(
+        "div",
+        {
+          staticClass:
+            "modal-dialog modal-dialog-centered modal-xl companies-modal",
+          attrs: { role: "document" }
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "modal-content" },
+            _vm._l(_vm.companies, function(company) {
+              return _c("div", { key: company.id, staticClass: "companies" }, [
+                _vm._m(0, true),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "companies-logo d-flex justify-content-center"
+                  },
+                  [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("img", { attrs: { src: company.logo, alt: "logo" } })
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", {
+                  staticClass: "companies-desc",
+                  domProps: { innerHTML: _vm._s(company.desc) }
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "companies-project-box" },
+                  _vm._l(company.projects, function(project) {
+                    return _c(
+                      "div",
+                      {
+                        key: project.id,
+                        staticClass: "companies-project-wrap"
+                      },
+                      [
+                        _c("div", { staticClass: "companies-project" }, [
+                          _c("div", { staticClass: "companies-project-img" }, [
+                            _c("img", {
+                              attrs: { src: project.img, alt: "images" }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "companies-project-info" }, [
+                            _c("h3", {
+                              domProps: { textContent: _vm._s(project.title) }
+                            }),
+                            _vm._v(" "),
+                            _c("p", {
+                              domProps: { textContent: _vm._s(project.desc) }
+                            }),
+                            _vm._v(" "),
+                            _c("a", { attrs: { href: project.link } }, [
+                              _vm._v("More view website")
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  }),
+                  0
+                ),
+                _vm._v(" "),
+                _vm._m(1, true)
+              ])
+            }),
+            0
+          )
+        ]
+      )
+    ]
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "menu-close d-flex",
+        attrs: { "data-dismiss": "modal", "aria-label": "Close" }
+      },
+      [
+        _c("a", { attrs: { href: "javascript:;" } }, [_vm._v("close")]),
+        _vm._v(" "),
+        _c("span", { staticClass: "line-1" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "line-2" })
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "companies-btm d-flex flex-wrap justify-content-lg-between"
+      },
+      [
+        _c("a", { attrs: { href: "#" } }, [
+          _c("i", { staticClass: "icofont-bubble-left" }),
+          _vm._v("Back Home\n                    ")
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [
+          _vm._v(
+            "\n                        More view website\n                        "
+          ),
+          _c("i", { staticClass: "icofont-bubble-right" })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/SiteMenu.vue?vue&type=template&id=ff785906&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/SiteMenu.vue?vue&type=template&id=ff785906& ***!
@@ -38108,7 +38435,11 @@ var render = function() {
                 },
                 [
                   _c("a", { attrs: { href: "#" } }, [
-                    _vm._v(_vm._s(nav.name) + " "),
+                    _vm._v(
+                      "\n                        " +
+                        _vm._s(nav.name) +
+                        "\n                        "
+                    ),
                     nav.hasChild
                       ? _c("i", { staticClass: "icofont-rounded-down" })
                       : _vm._e()
@@ -38118,7 +38449,7 @@ var render = function() {
                     ? _c(
                         "ul",
                         _vm._l(nav.childs, function(child) {
-                          return _c("li", [
+                          return _c("li", { key: child.id }, [
                             _c("a", { attrs: { href: "" } }, [
                               _vm._v(_vm._s(child.name))
                             ])
@@ -38148,7 +38479,7 @@ var render = function() {
           return _c(
             "div",
             {
-              key: item.title,
+              key: item.id,
               staticClass: "menu-slider-box",
               attrs: {
                 "data-toggle": "modal",
@@ -38217,10 +38548,12 @@ var staticRenderFns = [
         _c("h4", [_vm._v("Head Office")]),
         _vm._v(" "),
         _c("address", [
-          _vm._v("MF Tower, Plot-ga-95/c, Pragati Sarani"),
+          _vm._v(
+            "\n                    MF Tower, Plot-ga-95/c, Pragati Sarani\n                    "
+          ),
           _c("br"),
           _vm._v(
-            "\n                        Gulshan 1 Link Road, Dhaka-1212, Bangladesh"
+            "Gulshan 1 Link Road, Dhaka-1212, Bangladesh\n                "
           )
         ])
       ]),
@@ -38233,6 +38566,7 @@ var staticRenderFns = [
         _c("a", { attrs: { href: "tel:+8802 9840 726" } }, [
           _vm._v("+8802 9840 726")
         ]),
+        _vm._v(" "),
         _c("br"),
         _vm._v(" "),
         _c("a", { attrs: { href: "tel:+8802 5881 7175" } }, [
@@ -38252,7 +38586,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "send-query" }, [
         _c("a", { staticClass: "site-btn", attrs: { href: "#" } }, [
-          _vm._v("Send Query\n                        "),
+          _vm._v("\n                    Send Query\n                    "),
           _c("i", { staticClass: "long-arrow-right" })
         ])
       ])
@@ -38264,7 +38598,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "menu-btm-top text-center" }, [
       _c("span", [
-        _vm._v("Companies"),
+        _vm._v("\n                Companies\n                "),
         _c("i", { staticClass: "icofont-rounded-down" })
       ])
     ])
@@ -53515,7 +53849,7 @@ module.exports = "/images/logo.png?7f177f9ac9a7b76ba05c88b7a7d5b388";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./resources/assets/js/routes.js");
 /* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/App */ "./resources/assets/js/components/App.vue");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header */ "./resources/assets/js/components/Header.vue");
+/* harmony import */ var _components_Modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Modal */ "./resources/assets/js/components/Modal.vue");
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js"); //==vue-router
 
 
@@ -53528,7 +53862,7 @@ var app = new Vue({
   el: '#app',
   components: {
     App: _components_App__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Header: _components_Header__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Modal: _components_Modal__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   router: _routes__WEBPACK_IMPORTED_MODULE_0__["default"]
 });
@@ -53787,6 +54121,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/js/components/Modal.vue":
+/*!**************************************************!*\
+  !*** ./resources/assets/js/components/Modal.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modal.vue?vue&type=template&id=6e8d36f4& */ "./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4&");
+/* harmony import */ var _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modal.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/assets/js/components/Modal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/Modal.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/assets/js/components/Modal.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Modal.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4&":
+/*!*********************************************************************************!*\
+  !*** ./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Modal.vue?vue&type=template&id=6e8d36f4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/Modal.vue?vue&type=template&id=6e8d36f4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modal_vue_vue_type_template_id_6e8d36f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/components/SiteMenu.vue":
 /*!*****************************************************!*\
   !*** ./resources/assets/js/components/SiteMenu.vue ***!
@@ -53876,6 +54279,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
+    name: 'home',
     component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_2__["default"]
   }],
   mode: "history"
@@ -53901,8 +54305,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\xampp\htdocs\index-site\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! E:\xampp\htdocs\index-site\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! D:\wamp\www\index-site\resources\assets\js\app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! D:\wamp\www\index-site\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ })
